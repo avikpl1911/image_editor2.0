@@ -1,0 +1,252 @@
+.homeContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9eb68;
+}
+
+.homeBottomContainer{
+    height: calc( 100% - 77px );
+    display: flex;
+    padding-bottom: 10px;
+}
+
+
+
+.homeBottomContainerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeEditOptions{
+    background-color: white;
+    width: 93%;
+    height: 100%;
+    border-radius: 10px;
+   
+}
+
+
+.homeBottomContainerRight{
+    flex: 5;
+    background-color: white;
+    border-radius: 5px;
+    object-fit: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.homeBottomContainerRight::-webkit-scrollbar {
+    
+  }
+
+
+.zoomOptions{
+   position: absolute;
+   z-index: 99;
+   height: 100px;
+   width: 100px;
+   backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+   right: 20px;
+   bottom:20px;
+   border-radius: 5px;
+}
+
+.zoomoptionsContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.zoomupscroll{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zoomleftscroll{
+    position: absolute;
+     top: 40%;
+     bottom: 60%;
+     left: 10px;
+}
+
+.zoomdownscroll{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zoomrightscroll{
+    position: absolute;
+     top: 40%;
+     bottom: 60%;
+     right: 10px;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.iconcrtl{
+    height: 35px;
+    width: 35px; 
+}
+
+
+
+.zoomcrtlOpt{
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   left: 20%;
+   right: 80%;
+   top: 30%;
+   bottom: 70%;
+
+}
+
+.pointerCursor{
+    cursor: pointer;
+}
+
+.homeBottomContainerRight{
+    user-select: none;
+}
+
+.editTitle{
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.grayscale{
+    background-color: #f9eb68;
+    color: rgb(190, 185, 185);
+    font-weight: 800;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+
+}
+
+.HomebuttonUpload{
+    height: 40px;
+    width: 120px;
+    background-color: #f9eb68;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.homeimageuploadtext{
+    margin: auto;
+    font-size: large;
+    font-weight: 800;
+    color: azure;
+    cursor: pointer;
+
+}
+
+.homeSlides{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 90%;
+
+}
+.Leftbtn{
+    background-color: aquamarine;
+    height: 100%;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.Rightbtn{
+    background-color: aquamarine;
+    height: 100%;
+    flex: 1;
+    margin-left: 5px;
+
+}
+
+.homethreeslides{
+    background-color: blue;
+    height: 100%;
+    width: 40px;
+
+}
+
+.filtername{
+    font-size: small;
+    font-weight: 800;
+    color: yellow;
+}
+
+
+
+
+
+.slidingWindow{
+    flex: 9;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.slidexp{
+    margin: 4px;
+
+}
+
+.filter-textcontainer{
+    position: absolute;
+    text-align: center;
+    color: #f9eb68;
+    z-index: 99;
+    bottom: 15px;
+
+}
+
+
+
+.filtercontainer{
+    position: relative;
+    text-align: center;
+}
+
+
+.cropedit{
+    background-color: #f9eb68;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+

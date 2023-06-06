@@ -1,0 +1,18 @@
+[package]
+name = "wasm-lib"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2.86"
+base64 = "0.21.2"
+image = "0.24.6"
+
+[dependencies.web-sys]
+version= "0.3.4"
+features = ["console"]
