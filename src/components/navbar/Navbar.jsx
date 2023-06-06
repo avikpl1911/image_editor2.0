@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navbar.css"
 import "@fontsource/parisienne";
-import Svglogo from '../../assets/Svglogo';
+
 
 function Navbar() {
   return (
@@ -10,7 +10,7 @@ function Navbar() {
     >
       <div className="navbarTitle">
         <div className="navbarlogo">
-          <Svglogo/>
+          lol
         </div>
         <div className="navbarname">limedit</div>
         
