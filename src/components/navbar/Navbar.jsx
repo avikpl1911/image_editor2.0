@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navbar.css"
 import "@fontsource/parisienne";
-import Svglogo from '../../assets/svglogo';
+import Svglogo from '../../assets/Svglogo';
 
 function Navbar() {
   return (
